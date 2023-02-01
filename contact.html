@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="this is Ecommerce Project this is makie in md zihad express">
+  <title> Ecommerce Project </title>
+
+       <!-- font awesome cdn -->
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
+
+        <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- navbar starts here -->
+
+      <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+      <nav id="menu" class="hidden">
+       <ul class="nav-upper flex-space-around">
+        <li class="nav_list"><a href="index.html" class="nav_link"> Home </a>
+        </li>
+
+        <li class="nav_list"><a href="register.html" class="nav_link"> Register </a>
+        </li>
+
+        <li class="nav_list"><a href="login.html" class="nav_link"> Login </a>
+        </li>
+
+        <li class="nav_list"><a href="index.html" class="nav_link"> Logout </a>
+        </li>
+
+        <li class="nav_list"><a href="contact.html" class="nav_link"> Contact </a>
+        </li>
+
+        <li class="nav_list"><a href="profile.html" class="nav_link"> 
+
+          <img class="profile-icon" src="photos/profile.png" alt="zihad">
+        </a>
+        </li>
+       </ul>
+
+
+
+     <ul class="nav-lower flex-space-around">
+      <li class="nav_list"><a href="index.html" class=" nav_brand nav_link"> Zihad Express</a>
+      </li>
+
+      <li class="nav_list"><a href="cart.html" class="nav_link">
+        <span> <i class="fa-solid fa-cart-shopping"></i></span>
+        Cart 2 Products - $124.40
+      </a>
+      </li>
+     </ul>
+   </nav>
+
+      <!-- navbar ends here -->
+
+
+
+
+      <main>
+             
+                <section class="contact-section">
+                    <h2 class="section-title text-center"> Contact_Us</h2>
+
+                    <div class="contact-container flex-center">
+                      <form action="" class="form card">
+
+                        <div class="form-control flex-center">
+                          <label for="name"> Name</label>
+                          <input type="text" id="name" required autocomplete="name">
+                        </div>
+      
+                        <div class="form-control flex-center">
+                          <label for="email"> Email</label>
+                          <input type="email" id="email" required autocomplete="email">
+                        </div>
+                        <div class="form-control flex-center">
+                          <label for="about"> Massage </label>
+                          <textarea name="Massage" id="Massage"></textarea>
+                        </div>
+                        
+                  <div class="form-control flex-center form-btn-field">
+                    <button class="btn contact-btn"> Submit </button>
+                  </div>
+      
+                      </form>
+
+                      <div class="contact-address flex-space-around">
+
+                        <address>
+                          <h4> Address:</h4>
+                        <p>2440 Netrokona </p>
+                        <p> Dhaka, Mymensingh, Bangladesh </p> <br>
+                        <span> Call:</span>
+                        <a href="tel:+880 1580391649">+880 1580381649</a>
+                        </address>
+
+                        <iframe
+                        class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14465.961114923688!2d90.83061272786881!3d24.983451243934898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37571f6941c12b97%3A0x296102233535cd7e!2z4Keq4KeuIOCmqOCmgiDgpongpqTgp43gpqTgprAg4Kao4Ka_4Ka24KeN4Kaa4Ka_4Kao4KeN4Kak4Kaq4KeB4KawIOCmuOCmsOCmleCmvuCmsOCmvyDgpqrgp43gprDgpr7gpqXgpq7gpr_gppUg4Kas4Ka_4Kam4KeN4Kav4Ka-4Kay4KefLOCmrOCmvuCmsOCmueCmvuCmn-CnjeCmn-Cmvizgpqjgp4fgpqTgp43gprDgppXgp4vgpqjgpr4!5e0!3m2!1sen!2sbd!4v1674757570689!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+
+                      </div>
+
+
+                    </div>
+                </section>
+
+
+
+
+      </main>
+
+
+
+<!-- footer starts here -->
+
+  <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe"> Subscribe to News Letter:
+        </label>
+
+        <input type="email" id="subscribe" name="subscirbe" class="footer_input" placeholder="Your Email Address">
+
+        <button class="btn btn-subscribe"> Subscribe 
+        </button>
+      </div>
+
+      <div>
+          <p>&copy; Copyright 2023 Zihad Express. All rights rserved</p>
+      </div>
+  </footer>
+
+<!-- footer ends here -->
+
+
+     <!-- JavaScript file link -->
+     <script src="./scripts/index.js"></script>
+</body>
+</html>
